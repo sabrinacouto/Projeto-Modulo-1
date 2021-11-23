@@ -1,0 +1,85 @@
+@media(max-width: 700px){
+    h1{
+        color:white;
+        font-size: 20px;
+    }
+    body{
+        background-image: url(./Imagens/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}   
+
+@font-face {
+    font-family: 'Shrek';
+    src: url('./Imagens/fontshrek.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(./Imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(9, 247, 48);
+    font-family: 'Shrek';
+
+}
+
+.container{
+    background-color: rgba(255, 254, 255, 0.80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 2px 16px;
+
+}
+
+.card {
+    width: 270px;
+    height:300px;
+    margin: 15px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+.card:hover{
+    transform:scale(0.90);
+    cursor: pointer;
+
+}
+
+img{
+    width: 270px;
+    height:300px;
+}
+
+.card img:hover{
+    filter: grayscale(1.0);
+}
+
+footer{
+    background-color:black;
+    margin-top: 100px;
+    color:white;
+    font:bold;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
