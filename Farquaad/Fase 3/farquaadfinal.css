@@ -4,10 +4,6 @@
         font-size: 20px;
     }   
 
-    header{
-        font-size: 15px;
-    }
-
 }
 
 
@@ -20,7 +16,7 @@
 
 
 body{
-    background-image: url(../../Imagens/fundo.jpg);
+    background-image: url(../../Imagens/dulock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -30,8 +26,8 @@ h1{
     font-size: 50px;
     display:flex;
     justify-content: center;
-    margin-top: 100px;
-    color: rgb(9, 247, 48);
+    margin-top: 40px;
+    color: rgb(33, 9, 247);
     font-family: 'Shrek';
 
 }
@@ -42,44 +38,50 @@ h1:hover{
     transform: scale(0.90);
 }
 
-main.box {
+.box {
     background: rgba(253, 253, 253, 0.50);
     min-width: 320px;
     min-height: 20vh;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 50px;
+}
+
+.introdução{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2{
     margin-bottom: 50px;
     text-align: center;
-    color: rgb(9, 247, 48);
+    color: rgb(13, 9, 247);
     font-family: 'Shrek';
 }
 
-main p {
+p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-weight: bold;
-    color:green;
+    color: blue;
+    padding: 16px;
 }
 
 
 
-main p:hover{
+p:hover{
     color: white;
 }
 
-.button{
-    display: flex;
-    justify-content: center;  
-}
+
 
 .start{
     outline: none;
-    margin-top: 80px;
+    margin-top: 20px;
     text-align: center;
-    background-color: rgba(66, 226, 51, 0.5);
+    background-color: rgba(118, 72, 245, 0.5);
     font-size: 20px;
     line-height: 1;
     width: 500px;
@@ -93,25 +95,13 @@ main p:hover{
     
 }
 
-.button:hover{
+.start:hover{
     
     transform: scale(0.90);
 
 }
 
 .start:hover{
-    color:rgb(9, 247, 48);
+    color:rgb(35, 0, 117);
     background-color: white;
-}
-
-footer{
-    background-color:black;
-    margin-top: 150px;
-    margin-bottom: 0;
-    padding: 0;
-    color:white;
-    font:bold;
-    height: 25px;
-    width: 100%;
-    text-align: center;
 }

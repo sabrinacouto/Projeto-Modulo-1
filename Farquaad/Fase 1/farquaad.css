@@ -20,7 +20,7 @@
 
 
 body{
-    background-image: url(../../Imagens/fundo.jpg);
+    background-image: url(../../Imagens/dulock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ h1{
     display:flex;
     justify-content: center;
     margin-top: 100px;
-    color: rgb(9, 247, 48);
+    color: rgb(9, 72, 247);
     font-family: 'Shrek';
 
 }
@@ -53,7 +53,7 @@ main.box {
 h2{
     margin-bottom: 50px;
     text-align: center;
-    color: rgb(9, 247, 48);
+    color: rgb(9, 25, 247);
     font-family: 'Shrek';
 }
 
@@ -61,7 +61,7 @@ main p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-weight: bold;
-    color:green;
+    color:rgb(0, 9, 128);
 }
 
 
@@ -79,7 +79,7 @@ main p:hover{
     outline: none;
     margin-top: 80px;
     text-align: center;
-    background-color: rgba(66, 226, 51, 0.5);
+    background-color: rgba(76, 99, 201, 0.5);
     font-size: 20px;
     line-height: 1;
     width: 500px;
@@ -100,7 +100,7 @@ main p:hover{
 }
 
 .start:hover{
-    color:rgb(9, 247, 48);
+    color:rgb(9, 25, 247);
     background-color: white;
 }
 
