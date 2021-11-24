@@ -4,7 +4,7 @@
         font-size: 20px;
     }
     body{
-        background-image: url(./Imagens/fundo.jpg);
+        background-image: url(../Imagens/fundo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Shrek';
-    src: url('./Imagens/fontshrek.TTF') format('truetype');
+    src: url('../Imagens/fontshrek.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,7 +23,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(./Imagens/fundo.jpg);
+    background-image: url(../Imagens/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     

@@ -1,0 +1,107 @@
+@media(max-width: 700px){
+    h1{
+        color:white;
+        font-size: 20px;
+    }   
+
+}
+
+
+@font-face {
+    font-family: 'Shrek';
+    src: url('../../Imagens/fontshrek.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-image: url(../../Imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: rgb(9, 247, 48);
+    font-family: 'Shrek';
+
+}
+
+h1:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(0.90);
+}
+
+.box {
+    background: rgba(253, 253, 253, 0.50);
+    min-width: 320px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.introdução{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(9, 247, 48);
+    font-family: 'Shrek';
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:green;
+    padding: 16px;
+}
+
+
+
+p:hover{
+    color: white;
+}
+
+
+
+.bnt{
+    outline: none;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(66, 226, 51, 0.5);
+    font-size: 20px;
+    line-height: 1;
+    width: 500px;
+    color:white;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    
+}
+
+.bnt:hover{
+    
+    transform: scale(0.90);
+
+}
+
+.bnt:hover{
+    color: green;
+    background-color: white;
+}
